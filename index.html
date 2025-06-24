@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title for the browser tab -->
+    <title>Chughtai Lab report</title>
+    
+    <!-- Link to your favicon -->
+    <link rel="icon" type="image/webp" href="Chughtai lab-32x32.webp">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            /* The default font for the whole page is Inter */
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<!-- 
+  Updated body structure:
+  - 'flex flex-col': Enables flexbox to align content vertically.
+  - 'min-h-screen': Ensures the body takes up at least the full height of the viewport,
+    which helps in positioning the footer at the bottom.
+-->
+<body class="bg-slate-100 flex flex-col min-h-screen">
+
+    <!-- 
+      Main content area.
+      - 'flex-grow': Allows this section to expand and push the footer to the bottom.
+    -->
+    <main class="flex-grow flex items-center justify-center p-4">
+        <div class="max-w-4xl w-full bg-white p-2 sm:p-4 shadow-xl rounded-lg">
+            <img 
+                src="Chughtailabreport230625.png" 
+                alt="Chughtai Lab Report - 230625" 
+                class="w-full h-auto rounded-md"
+                onerror="this.onerror=null;this.src='https://placehold.co/800x1100/cccccc/333333?text=Image+Not+Found';"
+            >
+        </div>
+    </main>
+
+    <!-- 
+      New Footer Section
+      - Replicates the design from the provided screenshot.
+    -->
+    <footer class="bg-white w-full">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 py-16">
+            <!-- Main footer grid -->
+            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                
+                <!-- Column 1: Logo -->
+                <div class="lg:col-span-2">
+                    <!-- 
+                      Updated logo size: 'h-80' is approx. 20% smaller than 'h-96'.
+                    -->
+                    <img class="h-80 w-auto" src="chughtailablogo.svg" alt="Chughtai Lab Logo"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x150/000000/FFFFFF?text=Logo';"
+                    >
+                </div>
+                
+                <!-- Column 2: About Links -->
+                <div class="md:col-span-1">
+                    <!-- Updated font size, color, and removed bold -->
+                    <h3 class="font-semibold text-indigo-800 text-xl">About</h3>
+                    <ul class="mt-4 space-y-3 text-base">
+                        <li><a href="#" class="text-black hover:text-indigo-800">Our Story</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Timeline</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Core Team</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">CAP Accredited Central Lab</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Chughtai Foundations</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Chughtai Public Library</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Community Education</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Research</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Partnership & Media Links -->
+                <div class="md:col-span-1">
+                     <!-- Updated font size, color, and removed bold -->
+                    <h3 class="font-semibold text-indigo-800 text-xl">B2B Partnership</h3>
+                    <ul class="mt-4 space-y-3 text-base">
+                        <li><a href="#" class="text-black hover:text-indigo-800">Corporate Clients</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Corporate Products</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Corporate Team</a></li>
+                    </ul>
+                    <h3 class="font-semibold text-indigo-800 mt-8 text-xl">Blogs & Media</h3>
+                    <ul class="mt-4 space-y-3 text-base">
+                        <li><a href="#" class="text-black hover:text-indigo-800">Chughtai Lab Blogs</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Press Mentions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: HR & Academics Links -->
+                <div class="md:col-span-1">
+                     <!-- Updated font size, color, and removed bold -->
+                    <h3 class="font-semibold text-indigo-800 text-xl">HR</h3>
+                    <ul class="mt-4 space-y-3 text-base">
+                        <li><a href="#" class="text-black hover:text-indigo-800">Join Our Team</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Life at Chughtai Lab</a></li>
+                    </ul>
+                    <h3 class="font-semibold text-indigo-800 mt-8 text-xl">Academics</h3>
+                    <ul class="mt-4 space-y-3 text-base">
+                        <li><a href="#" class="text-black hover:text-indigo-800">M-Pill Admissions</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">BSc MLT Admissions</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">FCPS Residency Programs</a></li>
+                        <li><a href="#" class="text-black hover:text-indigo-800">Phlebotomy Course</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar: Copyright and Legal -->
+            <div class="mt-16 border-t border-slate-900/10 pt-8 flex flex-col md:flex-row items-center justify-between">
+                <!-- Updated font size, color, and removed bold -->
+                <p class="text-base text-black order-2 md:order-1 mt-4 md:mt-0">
+                    All rights reserved by Chughtai Lab &copy; Copyright – 2025
+                </p>
+                <div class="flex space-x-4 order-1 md:order-2 text-base">
+                    <a href="#" class="text-black hover:text-indigo-800">Terms and Conditions</a>
+                    <span class="text-slate-400">|</span>
+                    <a href="#" class="text-black hover:text-indigo-800">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
